@@ -4,3 +4,8 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+const textElement = document.getElementById('text');
+  const texts = ['Frontend Developer', 'Designer.', 'Blogger.' , 'hacker.' , 'freelancer.'];
+  let index = 0;
+  let isDeleting = false;
+  let speed = 120; // typing speed
